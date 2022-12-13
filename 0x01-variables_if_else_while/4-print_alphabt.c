@@ -7,12 +7,15 @@
 
 int main(void)
 {
-	int s = 0;
-	int e = 9;
+	int s = 97;
+	int e = 122;
 
 	while (s <= e)
 	{
-		putchar(s + '0');
+		if (s != 101 || s != 113)
+		{
+			putchar(s);
+		}
 		s++;
 	}
 
