@@ -19,7 +19,7 @@ int main(void)
 	s = 65;
 	e = 90;
 
-	whiule (s <= e)
+	while (s <= e)
 	{
 		putchar(s);
 		s++;
