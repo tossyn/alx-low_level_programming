@@ -12,9 +12,12 @@ int main(void)
 
 	while (s <= e)
 	{
-		if (s != 101 || s != 113)
+		if (s != 101)
 		{
-			putchar(s);
+			if (s != 113)
+			{
+				putchar(s);
+			}
 		}
 		s++;
 	}
